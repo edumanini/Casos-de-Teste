@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://adam.goucher.ca/" />
+<title>Long-term surface 0 Days, 12 Hours, 0 Minutes</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Long-term surface 0 Days, 12 Hours, 0 Minutes</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/parkcalc/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Lot</td>
+	<td>LTS</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=EntryTime</td>
+	<td>00:00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=EntryDate</td>
+	<td>12/01/2015</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ExitTime</td>
+	<td>12:00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ExitDate</td>
+	<td>12/01/2015</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=EntryTimeAMPM</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.Calculator.ExitTimeAMPM[1]</td>
+	<td>PM</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.BodyCopy &gt; font &gt; b</td>
+	<td>(0 Days, 12 Hours, 0 Minutes)</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=b</td>
+	<td>$ 10.00</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
